@@ -230,4 +230,19 @@ Our platform uses **predefined triggers** to automate claims:
 
 ---
 
+### 3.8 Scalability & Generalization
+
+While the solution is specifically designed for Swiggy delivery partners in Hyderabad, the underlying architecture is **modular and extensible**.
+
+- The risk engine is configurable to incorporate different disruption types  
+- Location models can be adapted to new cities with minimal changes  
+- Parametric triggers can be redefined based on platform-specific conditions  
+
+This enables the system to be extended to:
+- Other delivery platforms (e.g., Zomato, Zepto)  
+- Different cities with unique environmental patterns  
+- Broader gig economy segments with similar income dependencies  
+
+👉 However, the current implementation remains **persona-focused** to ensure depth, accuracy, and relevance.
+
 This solution transforms insurance from a reactive process into a **proactive, intelligent safety net** for gig workers.
