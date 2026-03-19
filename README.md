@@ -280,3 +280,130 @@ All escalated cases are fed back into the system to improve:
 ---
 
 This solution transforms insurance from a reactive process into a **proactive, intelligent safety net** for gig workers.
+
+
+## 4. ⚙️ System Workflow
+
+This section outlines the end-to-end flow of the platform, from user onboarding to automated payout processing.
+
+---
+
+### 4.1 User Onboarding
+
+- The delivery partner registers on the platform  
+- Provides basic details:
+  - Location (Hyderabad)  
+  - Primary working zones  
+  - Preferred working hours  
+
+- The system initializes a user profile for risk assessment  
+
+---
+
+### 4.2 Risk Profiling (AI Engine)
+
+- The Multi-Layer AI Risk Engine evaluates:
+  - 🌧️ Environmental data (weather conditions)  
+  - 📍 Location data (zone-based risk)  
+  - ⏰ Temporal data (time-of-day patterns)  
+
+- A **composite risk score (0–1)** is generated for the user  
+
+---
+
+### 4.3 Policy Creation & Weekly Pricing
+
+- Based on the risk score:
+  - A **weekly premium** is calculated  
+  - Coverage details are generated  
+
+- Example:
+  - Low-risk zone → lower premium  
+  - High-risk zone → higher premium  
+
+- The user selects and activates their policy  
+
+---
+
+### 4.4 Real-Time Monitoring
+
+- The system continuously monitors external data sources:
+  - Weather APIs (rainfall, temperature)  
+  - Traffic patterns (mock/simulated data)  
+  - Time-based demand patterns  
+
+- Data is processed in near real-time  
+
+---
+
+### 4.5 Trigger Detection (Parametric Engine)
+
+- Predefined conditions are evaluated:
+
+  - Rainfall > threshold  
+  - Temperature > threshold  
+  - High congestion during peak hours  
+
+- When conditions are met:
+  - A **trigger event** is generated  
+
+---
+
+### 4.6 Automated Claim Initiation
+
+- Once a trigger event is detected:
+  - The system automatically initiates a claim  
+  - No manual input is required from the user  
+
+- The claim is validated using:
+  - Risk score context  
+  - Location and time data  
+  - Fraud detection checks  
+
+---
+
+### 4.7 Instant Payout Processing
+
+- Approved claims are processed instantly  
+- Payout is transferred via integrated payment systems (mock/sandbox)  
+
+- Example:
+  - ₹300 credited for a high-disruption event  
+
+---
+
+### 4.8 User Interaction (AI Support Agent)
+
+- The AI agent provides:
+  - Real-time notifications of triggered events  
+  - Explanation of payouts  
+  - Policy and coverage assistance  
+
+- Ensures transparency and user trust  
+
+---
+
+### 4.9 Exception Handling (Human-in-the-Loop)
+
+- In rare cases where anomalies are detected:
+  - The system flags the claim  
+  - The AI agent collects additional context  
+  - A human agent reviews and resolves the issue  
+
+---
+
+### 4.10 Dashboard & Insights
+
+#### For Delivery Partner:
+- Active coverage status  
+- Earnings protected  
+- Claim history  
+
+#### For Admin/Insurer:
+- Risk distribution across zones  
+- Loss ratios  
+- Predictive insights for future disruptions  
+
+---
+
+This workflow ensures a **seamless, automated, and reliable experience**, transforming income protection into a real-time, intelligent system.
