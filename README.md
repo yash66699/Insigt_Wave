@@ -247,5 +247,26 @@ This enables the system to be extended to:
 
 ---
 
+### 3.9 Fallback & Exception Handling (Human-in-the-Loop)
+
+While the platform is designed for **fully automated, zero-touch claim processing**, real-world scenarios may introduce unexpected conditions such as data inconsistencies, API failures, or edge-case disruptions.
+
+To ensure reliability and trust, we introduce a **Human-in-the-Loop fallback mechanism**:
+
+- ⚠️ **Exception Detection:**  
+  The system flags anomalies such as conflicting data inputs, missing API responses, or unusual claim patterns  
+
+- 🤖 **AI-Assisted Review:**  
+  A lightweight decision support system provides context and recommendations  
+
+- 👨‍💼 **Human Intervention (Agent Layer):**  
+  In rare cases, flagged claims are reviewed by a support agent to ensure fair resolution  
+
+- 🔁 **Feedback Loop:**  
+  These cases are fed back into the AI system to continuously improve future predictions and fraud detection  
+
+👉 This hybrid approach ensures **high automation efficiency while maintaining robustness, fairness, and user trust**.
+
+---
 
 This solution transforms insurance from a reactive process into a **proactive, intelligent safety net** for gig workers.
