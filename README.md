@@ -663,3 +663,131 @@ To prevent misuse and ensure reliability:
 ### 6.7 Key Insight
 
 > By using clearly defined, data-driven triggers, the platform ensures **fast, fair, and dispute-free payouts**, making insurance seamless and reliable for gig workers.
+
+
+## 7. 🤖 AI/ML Strategy
+
+This section outlines how Artificial Intelligence is integrated into the system to enable **risk prediction, dynamic pricing, and fraud detection**.
+
+---
+
+### 7.1 Role of AI in the System
+
+AI is used to enhance decision-making across three key areas:
+
+- 📊 Predicting disruption risk  
+- 💰 Dynamically adjusting weekly premiums  
+- 🔍 Detecting anomalous or fraudulent behavior  
+
+👉 The system is designed to be **data-driven, adaptive, and continuously improving**.
+
+---
+
+### 7.2 Multi-Layer Risk Prediction Model
+
+At the core of the platform is a **Multi-Layer Risk Prediction Model** that computes a composite risk score.
+
+#### Inputs:
+
+- 🌧️ Environmental Data:
+  - Rainfall intensity  
+  - Temperature levels  
+
+- 📍 Location Data:
+  - Zone-based historical disruption patterns  
+  - Flood-prone or high-risk areas  
+
+- ⏰ Temporal Data:
+  - Time-of-day demand patterns  
+  - Peak-hour congestion trends  
+
+---
+
+#### Processing:
+
+- Each factor is assigned a **weighted contribution**  
+- The system aggregates inputs to generate a **risk score (0–1)**  
+
+> Example:  
+> Risk Score = (0.4 × Environmental) + (0.3 × Location) + (0.3 × Temporal)
+
+---
+
+#### Output:
+
+- Risk score used for:
+  - Weekly premium calculation  
+  - Trigger sensitivity adjustment  
+  - User-specific risk profiling  
+
+---
+
+### 7.3 Dynamic Pricing Engine
+
+The system uses the risk score to adjust pricing in a controlled manner:
+
+- Higher predicted risk → higher weekly premium  
+- Lower predicted risk → lower premium  
+
+#### Key Features:
+- 📈 Adaptive pricing based on historical and forecasted data  
+- 🔄 Weekly recalibration (not real-time changes during active policy)  
+- ⚖️ Balanced to ensure affordability and sustainability  
+
+---
+
+### 7.4 Fraud Detection & Anomaly Detection
+
+To maintain system integrity, the platform includes a lightweight fraud detection layer:
+
+#### Detection Mechanisms:
+
+- 📍 Location Validation:
+  - Ensures user activity aligns with registered zones  
+
+- 🔁 Duplicate Claim Prevention:
+  - Prevents repeated payouts for the same event  
+
+- 📊 Anomaly Detection:
+  - Flags unusual claim patterns or inconsistencies  
+
+---
+
+#### Example:
+
+- A user consistently triggering payouts in low-risk conditions  
+- Mismatch between external data and user activity  
+
+👉 Such cases are flagged for review via the **exception handling system**
+
+---
+
+### 7.5 Continuous Learning Loop
+
+The system improves over time through feedback:
+
+- Historical data is used to refine:
+  - Risk prediction accuracy  
+  - Trigger thresholds  
+
+- Edge cases reviewed by human agents are:
+  - Fed back into the model  
+  - Used to improve future predictions  
+
+---
+
+### 7.6 Model Simplicity & Practicality
+
+The system is designed to be:
+
+- ✅ Lightweight and deployable  
+- ✅ Interpretable (no black-box decisions)  
+- ✅ Compatible with real-time data pipelines  
+
+👉 This ensures feasibility within a hackathon scope while remaining scalable for production systems  
+
+---
+
+### 7.7 Key Insight
+
+> AI in this system is not used as a buzzword, but as a **practical tool to model risk, optimize pricing, and ensure fairness**, enabling a smarter and more reliable insurance experience.
