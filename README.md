@@ -91,23 +91,49 @@ Highly variable and dependent on:
 
 ## 2.4 Pain Points
 
-Swiggy riders in Hyderabad face:
+Swiggy riders in Hyderabad experience income loss due to a combination of **environmental, location-based, and temporal factors**:
 
-### 🌧️ Weather Disruptions
+---
 
-- Heavy rains reduce order volume  
-- Flooded areas become inaccessible  
+### 🌧️ Environmental Factors (Weather-Based Disruptions)
 
-### 🔥 Heat Stress
+External weather conditions directly impact a rider’s ability to complete deliveries.
 
-- Extreme temperatures reduce working hours  
-- Physical fatigue impacts delivery efficiency  
+- Heavy rainfall reduces order demand and slows delivery speed  
+- Extreme heat (40°C+) forces riders to take breaks or reduce working hours  
 
-### 🚗 Traffic Constraints
+📌 **Example:**  
+A rider during monsoon experiences continuous rain for 3–4 hours, leading to fewer orders and delayed deliveries, reducing daily earnings significantly.
 
-- Peak-hour congestion slows delivery cycles  
-- Fewer deliveries per hour → reduced earnings  
+---
 
+### 📍 Location-Based Factors (Zone-Level Risk)
+
+Risk varies across different areas within the city due to infrastructure and geography.
+
+- Flood-prone zones become inaccessible during rain  
+- High-traffic commercial areas experience delivery delays  
+- Some areas have consistently lower order density  
+
+📌 **Example:**  
+A rider operating in Kukatpally (a flood-prone area) during rainfall faces road blockages, while another rider in a better-drained area like Gachibowli continues to operate with minimal disruption.
+
+---
+
+### ⏰ Temporal Factors (Time-Based Variations)
+
+Earnings fluctuate based on time of day due to demand patterns and traffic conditions.
+
+- Peak hours (lunch/dinner) have high demand but also high congestion  
+- Off-peak hours result in fewer orders  
+- Late-night shifts may have low demand but smoother traffic  
+
+📌 **Example:**  
+During peak dinner hours (7–10 PM), a rider in a congested area completes fewer deliveries due to traffic delays, reducing earnings despite high demand.
+
+---
+
+This structured breakdown clearly shows that income loss is not caused by a single factor, but by a **combination of measurable, external conditions**, making it suitable for a parametric insurance approach.
 ---
 
 ## 2.5 Real-World Scenario
