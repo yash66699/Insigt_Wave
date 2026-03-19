@@ -543,3 +543,123 @@ While this is a simulated system, the pricing model aligns with key principles o
 ### 5.9 Key Insight
 
 > A successful pricing model must balance **fairness, transparency, and sustainability**. By fixing premiums per cycle, ensuring user consent, and using risk-based adjustments, the platform builds trust while maintaining financial viability.
+
+
+## 6. ⚡ Parametric Triggers
+
+This section defines the **objective, measurable conditions** under which payouts are automatically triggered. These triggers are designed to directly correlate with **loss of income** for delivery partners.
+
+---
+
+### 6.1 Trigger Design Principles
+
+The platform follows key principles for defining parametric triggers:
+
+- 📊 **Objective:** Based on verifiable external data (no manual input)  
+- ⚡ **Automatic:** No user-initiated claim required  
+- 🔍 **Transparent:** Clearly defined thresholds shared with users  
+- 🎯 **Relevant:** Directly linked to reduced earning ability  
+
+---
+
+### 6.2 Core Disruption Triggers
+
+The system uses a combination of environmental, location-based, and temporal triggers:
+
+---
+
+#### 🌧️ Environmental Trigger: Rainfall
+
+- **Condition:** Rainfall > 40 mm within a defined time window  
+- **Impact:** Reduced order volume + slower deliveries  
+- **Payout:** ₹200–₹400 depending on severity  
+
+📌 *Data Source:* Weather APIs (real-time or simulated)
+
+---
+
+#### 🔥 Environmental Trigger: Extreme Heat
+
+- **Condition:** Temperature > 40°C  
+- **Impact:** Reduced working hours due to physical strain  
+- **Payout:** ₹150–₹300  
+
+📌 *Data Source:* Weather APIs
+
+---
+
+#### 📍 Location-Based Trigger: Zone Disruption
+
+- **Condition:** High-risk zones flagged during adverse conditions  
+  (e.g., flood-prone areas during rainfall)  
+
+- **Impact:** Inaccessibility of delivery routes  
+- **Payout:** Additional ₹100–₹200 (stacked with base trigger if applicable)  
+
+📌 *Data Source:* Predefined zone risk mapping + event overlay  
+
+---
+
+#### ⏰ Temporal Trigger: Peak Hour Congestion
+
+- **Condition:** High congestion levels during peak hours (7–10 PM)  
+- **Impact:** Reduced delivery throughput (fewer orders completed)  
+- **Payout:** ₹100–₹200 (partial compensation)  
+
+📌 *Data Source:* Traffic APIs (or simulated data)
+
+---
+
+### 6.3 Trigger Combination Logic
+
+In real-world scenarios, multiple conditions may occur simultaneously.
+
+- The system supports **stacked triggers**, where:
+  - Rain + high-risk zone → higher payout  
+  - Peak-hour congestion + weather disruption → combined impact  
+
+- A **maximum payout cap** is enforced per event to ensure sustainability  
+
+---
+
+### 6.4 Trigger Execution Flow
+
+1. External data is continuously monitored  
+2. Conditions are evaluated against predefined thresholds  
+3. If a trigger condition is met:
+   - A disruption event is generated  
+4. The system calculates payout based on:
+   - Severity  
+   - Active policy coverage  
+5. Claim is automatically initiated and processed  
+
+---
+
+### 6.5 Transparency & User Awareness
+
+- All trigger conditions are:
+  - Clearly displayed during policy purchase  
+  - Explained via the AI support agent  
+
+- Users are informed:
+  - What events are covered  
+  - What thresholds activate payouts  
+
+👉 This eliminates ambiguity and builds trust in the system  
+
+---
+
+### 6.6 Limitations & Safeguards
+
+To prevent misuse and ensure reliability:
+
+- ❌ No manual claim submissions allowed  
+- 🔒 Only verified external data sources are used  
+- 📉 Trigger thresholds are calibrated to avoid excessive payouts  
+- 🧠 Fraud detection mechanisms validate abnormal patterns  
+
+---
+
+### 6.7 Key Insight
+
+> By using clearly defined, data-driven triggers, the platform ensures **fast, fair, and dispute-free payouts**, making insurance seamless and reliable for gig workers.
