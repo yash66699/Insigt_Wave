@@ -791,3 +791,237 @@ The system is designed to be:
 ### 7.7 Key Insight
 
 > AI in this system is not used as a buzzword, but as a **practical tool to model risk, optimize pricing, and ensure fairness**, enabling a smarter and more reliable insurance experience.
+
+
+## 8. 🏗️ Technical Architecture
+
+This section outlines the system design, technology stack, and data flow required to build the platform.
+
+---
+
+### 8.1 System Overview
+
+The platform follows a **modular, service-oriented architecture** consisting of:
+
+- Frontend (User Interface)  
+- Backend (Core Logic & APIs)  
+- AI Engine (Risk & Pricing Models)  
+- External Integrations (Data Sources & Payments)  
+
+👉 Each component is designed to be **loosely coupled and scalable**
+
+---
+
+### 8.2 High-Level Architecture Components
+
+#### 🖥️ Frontend Layer
+- Mobile/Web interface for delivery partners  
+- Features:
+  - User onboarding  
+  - Policy selection  
+  - Dashboard (coverage, earnings, claims)  
+  - AI support agent interface  
+
+**Suggested Tech:** React / Flutter  
+
+---
+
+#### ⚙️ Backend Layer
+- Handles business logic and API orchestration  
+- Responsible for:
+  - User management  
+  - Policy management  
+  - Trigger evaluation  
+  - Claim processing  
+
+**Suggested Tech:** Node.js / Python (FastAPI)
+
+---
+
+#### 🤖 AI Engine
+- Computes risk scores and pricing  
+- Handles:
+  - Risk prediction  
+  - Dynamic pricing  
+  - Fraud detection  
+
+**Implementation:**  
+- Lightweight ML models or rule-based scoring (for MVP)
+
+---
+
+#### 🗄️ Database Layer
+- Stores:
+  - User profiles  
+  - Policy data  
+  - Claims history  
+  - Risk parameters  
+
+**Suggested Tech:** MongoDB / PostgreSQL  
+
+---
+
+#### 🔗 External Integrations
+
+- 🌧️ Weather APIs (rainfall, temperature)  
+- 🚗 Traffic data (mock/simulated acceptable)  
+- 💳 Payment gateways (Razorpay/Stripe sandbox)  
+- 📍 Location services (GPS/mapping APIs)  
+
+---
+
+### 8.3 Data Flow (End-to-End)
+
+1. User registers via frontend  
+2. Backend sends data to AI engine  
+3. AI engine computes risk score  
+4. Backend generates weekly premium and policy  
+5. External APIs provide real-time data (weather, traffic)  
+6. Backend evaluates trigger conditions  
+7. On trigger:
+   - Claim is automatically initiated  
+   - Payment API processes payout  
+8. Dashboard updates user with results  
+
+---
+
+### 8.4 Trigger & Processing Pipeline
+
+- Real-time data ingestion from APIs  
+- Event processing engine evaluates thresholds  
+- Trigger events passed to claim module  
+- Claim module validates and executes payout  
+
+👉 Designed for **low-latency, near real-time processing**
+
+---
+
+### 8.5 Scalability Considerations
+
+- Modular services allow independent scaling  
+- API-based architecture supports integration with new data sources  
+- Risk engine can be extended with more advanced ML models  
+
+---
+
+### 8.6 Market Crash Readiness (Compliance Adaptability)
+
+To handle sudden regulatory or requirement changes:
+
+- ⚙️ Trigger conditions are **config-driven** (not hardcoded)  
+- 📊 Risk parameters can be updated dynamically  
+- 🧩 New rules can be added without major system redesign  
+
+👉 This ensures quick adaptation to compliance updates without system downtime  
+
+---
+
+### 8.7 Key Insight
+
+> The architecture is designed to be **modular, scalable, and integration-ready**, ensuring that the system can evolve from a prototype to a production-grade platform.
+
+## 9. 🛠️ Development Plan
+
+This section outlines the step-by-step roadmap for building the platform across the remaining phases of the hackathon.
+
+---
+
+### 9.1 Development Strategy
+
+The development approach focuses on:
+
+- 🚀 Building a functional MVP early  
+- 🔄 Iteratively adding intelligence and automation  
+- ⚙️ Prioritizing core features over complexity  
+
+👉 The goal is to ensure a **working, demonstrable system by each phase**
+
+---
+
+### 9.2 Phase 2: Automation & Protection (Weeks 3–4)
+
+Focus: **Core System Implementation**
+
+#### Key Features to Build:
+
+- 👤 User Registration & Onboarding  
+- 📄 Policy Creation & Management  
+- 🤖 Basic Risk Scoring System  
+- 💰 Weekly Premium Calculation  
+- ⚡ Parametric Trigger Detection (2–3 triggers)  
+- 🔄 Automated Claim Initiation  
+
+#### Deliverables:
+
+- Working prototype (web/mobile interface)  
+- Backend APIs for policy and claims  
+- Demo video showcasing:
+  - Registration  
+  - Policy flow  
+  - Trigger-based claim  
+
+---
+
+### 9.3 Phase 3: Scale & Optimise (Weeks 5–6)
+
+Focus: **Advanced Features & System Refinement**
+
+#### Key Features to Build:
+
+- 🧠 Enhanced AI Risk Engine (multi-layer refinement)  
+- 🔍 Fraud Detection Mechanisms  
+- ⚡ Instant Payout Integration (mock/sandbox)  
+- 🤖 AI Support Agent (basic conversational interface)  
+- 📊 Dashboard for users and admin  
+
+#### Deliverables:
+
+- Fully integrated system  
+- End-to-end workflow demonstration  
+- 5-minute demo video showing:
+  - Trigger event simulation  
+  - Automated payout  
+  - Dashboard insights  
+
+---
+
+### 9.4 MVP Scope (Minimum Viable Product)
+
+To ensure timely delivery, the MVP will include:
+
+- Single persona (Swiggy riders in Hyderabad)  
+- 2 core triggers (Rainfall + Heat)  
+- Basic risk scoring (rule-based or simple model)  
+- Simulated API data (if needed)  
+- Mock payment integration  
+
+👉 Focus is on **functionality and clarity**, not full-scale production complexity  
+
+---
+
+### 9.5 Risk Mitigation Strategy
+
+To avoid delays and penalties:
+
+- ✅ Prioritize core features before enhancements  
+- ⏱️ Ensure on-time submissions (even if incomplete)  
+- 🧩 Use mock data where real APIs are complex  
+- 🔄 Maintain modular code for easier updates  
+
+---
+
+### 9.6 Team Execution Plan
+
+- Divide work into:
+  - Frontend  
+  - Backend  
+  - AI/Logic  
+  - Integration & Testing  
+
+- Regular checkpoints to ensure alignment with deliverables  
+
+---
+
+### 9.7 Key Insight
+
+> A focused, phased development plan ensures that the team delivers a **working, scalable solution on time**, while progressively enhancing intelligence and user experience.
