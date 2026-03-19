@@ -243,29 +243,39 @@ This enables the system to be extended to:
 - Different cities with unique environmental patterns  
 - Broader gig economy segments with similar income dependencies  
 
-👉 However, the current implementation remains **persona-focused** to ensure depth, accuracy, and relevance.
+👉 However, the current implementation remains **persona-focused** to ensure depth, accuracy, and relevance.\
 
 ---
 
-### 3.9 Fallback & Exception Handling (Human-in-the-Loop)
+### 3.9 Intelligent Support System (Agent + Human-in-the-Loop)
 
-While the platform is designed for **fully automated, zero-touch claim processing**, real-world scenarios may introduce unexpected conditions such as data inconsistencies, API failures, or edge-case disruptions.
+To enhance user experience and system reliability, we introduce an **AI-powered support agent** that acts as the primary interface for delivery partners.
 
-To ensure reliability and trust, we introduce a **Human-in-the-Loop fallback mechanism**:
+#### 🤖 AI Support Agent (Primary Layer)
+- Assists users with onboarding, policy understanding, and coverage details  
+- Provides real-time updates on active coverage and triggered events  
+- Explains payout decisions in a transparent and user-friendly manner  
 
-- ⚠️ **Exception Detection:**  
-  The system flags anomalies such as conflicting data inputs, missing API responses, or unusual claim patterns  
+#### ⚠️ Exception Handling & Escalation
+While the core insurance system operates in a fully automated, parametric manner, certain edge cases may arise:
 
-- 🤖 **AI-Assisted Review:**  
-  A lightweight decision support system provides context and recommendations  
+- Missing or inconsistent external data (e.g., API failures)  
+- Conflicting signals across risk layers  
+- Suspicious or anomalous claim patterns  
 
-- 👨‍💼 **Human Intervention (Agent Layer):**  
-  In rare cases, flagged claims are reviewed by a support agent to ensure fair resolution  
+In such scenarios:
 
-- 🔁 **Feedback Loop:**  
-  These cases are fed back into the AI system to continuously improve future predictions and fraud detection  
+- 🚨 The system flags the case for review  
+- 🤖 The AI agent gathers contextual information  
+- 👨‍💼 A human support agent intervenes only when necessary  
 
-👉 This hybrid approach ensures **high automation efficiency while maintaining robustness, fairness, and user trust**.
+#### 🔁 Continuous Learning Loop
+All escalated cases are fed back into the system to improve:
+- Risk prediction accuracy  
+- Fraud detection models  
+- Trigger reliability  
+
+👉 This ensures a balance between **high automation efficiency** and **real-world robustness**, without compromising the zero-touch claim experience.
 
 ---
 
