@@ -245,4 +245,7 @@ This enables the system to be extended to:
 
 👉 However, the current implementation remains **persona-focused** to ensure depth, accuracy, and relevance.
 
+---
+
+
 This solution transforms insurance from a reactive process into a **proactive, intelligent safety net** for gig workers.
