@@ -407,3 +407,145 @@ This section outlines the end-to-end flow of the platform, from user onboarding 
 ---
 
 This workflow ensures a **seamless, automated, and reliable experience**, transforming income protection into a real-time, intelligent system.
+
+
+## 5. 💰 Weekly Pricing Model
+
+### 5.1 Why Weekly Pricing
+
+Gig workers operate on a **weekly earning cycle**, making weekly premiums more aligned with their cash flow.
+
+- Daily earnings → ₹500–₹800  
+- Weekly earnings → ₹3,500–₹5,000  
+
+👉 A weekly pricing model ensures:
+- Better affordability  
+- Higher adoption  
+- Easier renewals  
+
+---
+
+### 5.2 Pricing Logic (AI-Driven)
+
+The weekly premium is dynamically calculated using the **Multi-Layer Risk Score**:
+
+> **Premium = Base Price × Risk Multiplier**
+
+#### Risk Inputs:
+- 🌧️ Environmental Risk (rainfall, temperature)  
+- 📍 Location Risk (zone-based disruption probability)  
+- ⏰ Temporal Risk (peak-hour congestion impact)  
+
+#### Example:
+| Risk Level | Risk Score | Weekly Premium |
+|-----------|-----------|----------------|
+| Low Risk  | 0.2       | ₹20            |
+| Medium Risk | 0.5     | ₹35            |
+| High Risk | 0.8       | ₹50            |
+
+---
+
+### 5.3 Payout Structure
+
+Payouts are triggered based on disruption intensity:
+
+- Mild disruption → ₹100–₹200  
+- Moderate disruption → ₹200–₹300  
+- Severe disruption → ₹300–₹500  
+
+👉 Designed to **partially compensate income loss**, not fully replace it.
+
+---
+
+### 5.4 Affordability for Delivery Partners
+
+The pricing is designed to remain within **1–2% of weekly earnings**:
+
+- Weekly income: ₹3,500–₹5,000  
+- Premium range: ₹20–₹50  
+
+👉 This ensures:
+- Minimal financial burden  
+- High willingness to subscribe  
+- Sustainable long-term usage  
+
+---
+
+### 5.5 Financial Sustainability for the Platform
+
+The model is designed to be **actuarially balanced** using:
+
+#### 📊 Risk Pooling
+- Not all users face disruptions simultaneously  
+- Premiums collected from low-risk users offset payouts for high-risk events  
+
+#### 🤖 Predictive Risk Control
+- AI adjusts premiums based on historical and real-time risk  
+- High-risk zones are priced higher to maintain balance  
+
+#### 📉 Controlled Payout Design
+- Payouts are capped and partial  
+- Prevents over-exposure during extreme events  
+
+---
+
+### 5.6 Example Scenario
+
+- 1,000 users enrolled  
+- Average premium: ₹30/week → ₹30,000 collected  
+
+If:
+- 20% users face disruptions  
+- Avg payout: ₹200  
+
+→ Total payout = ₹40,000  
+
+👉 The system remains sustainable through:
+- Risk-adjusted pricing  
+- Lower disruption frequency in normal weeks  
+- Dynamic premium updates over time  
+
+---
+
+### 5.7 Key Insight
+
+> The model balances **affordability for gig workers** and **financial sustainability for the insurer** by combining AI-driven pricing, controlled payouts, and risk pooling.
+
+---
+
+### 5.8 Pricing Transparency & User Control
+
+To ensure trust and prevent user dissatisfaction, the platform follows a **transparent and user-consented pricing model**:
+
+#### 📢 Upfront Communication
+- Users are clearly informed of their **weekly premium before activation**
+- All pricing factors (risk level, location, conditions) are explained via the AI support agent  
+
+#### 🔄 Controlled Premium Updates
+- Premiums are **not changed abruptly during an active week**
+- Any changes are applied only at the **start of the next billing cycle**  
+
+#### ✅ User Consent & Flexibility
+- Users are notified in advance if:
+  - Risk levels increase  
+  - Premium changes are expected  
+
+- The user can:
+  - Accept the updated premium  
+  - Modify coverage  
+  - Opt out for the next cycle  
+
+#### 🤖 Explainability via AI Agent
+- The AI agent provides clear explanations such as:
+  - “Premium increased due to expected heavy rainfall in your zone this week”  
+
+---
+
+### 5.9 Key Insight on Pricing Trust
+
+> A transparent and predictable pricing model is essential for adoption. By ensuring users are informed, in control, and able to make decisions, the platform builds **long-term trust and engagement**, which is critical for sustained usage.
+
+
+---
+
+This ensures the platform is not only technically feasible, but also **economically viable in real-world deployment**.
