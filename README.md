@@ -133,15 +133,16 @@ During peak dinner hours (7–10 PM), a rider in a congested area completes fewe
 
 ---
 
-This structured breakdown clearly shows that income loss is not caused by a single factor, but by a **combination of measurable, external conditions**, making it suitable for a parametric insurance approach.
+This structured breakdown highlights that income loss is not driven by a single factor, but by a **combination of environmental, location-based, and temporal conditions**, all of which are measurable and predictable. This makes the problem highly suitable for a parametric insurance approach.
+
 ---
 
 ## 2.5 Real-World Scenario
 
-> A Swiggy delivery partner operating in Kukatpally during heavy rainfall experiences flooded roads, leading to a 60% drop in completed deliveries for the day. Despite being available to work, the rider earns significantly less due to conditions beyond their control.
+> A Swiggy delivery partner operating in Kukatpally during heavy rainfall (environmental factor) faces flooded roads (location-based risk) during peak dinner hours (temporal factor). Despite being available to work, the rider experiences a ~60% drop in completed deliveries due to reduced accessibility and increased delivery time, leading to significant income loss.
 
 ---
 
 ## 2.6 Key Insight
 
-> The problem is not the lack of work willingness, but the **inability to earn due to external, measurable conditions**.
+> The problem is not the lack of willingness to work, but the **inability to earn due to a combination of external, measurable conditions across environment, location, and time**—making it ideal for an automated, parametric insurance solution.
