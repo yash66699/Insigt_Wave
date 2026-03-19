@@ -408,144 +408,138 @@ This section outlines the end-to-end flow of the platform, from user onboarding 
 
 This workflow ensures a **seamless, automated, and reliable experience**, transforming income protection into a real-time, intelligent system.
 
-
 ## 5. 💰 Weekly Pricing Model
 
 ### 5.1 Why Weekly Pricing
 
-Gig workers operate on a **weekly earning cycle**, making weekly premiums more aligned with their cash flow.
+Gig workers operate on a **short-term earning cycle**, where income is earned and utilized on a weekly basis.
 
-- Daily earnings → ₹500–₹800  
-- Weekly earnings → ₹3,500–₹5,000  
+- Daily earnings: ₹500–₹800  
+- Weekly earnings: ₹3,500–₹5,000  
 
-👉 A weekly pricing model ensures:
-- Better affordability  
-- Higher adoption  
-- Easier renewals  
+A weekly pricing model ensures:
+- Alignment with user cash flow  
+- Higher affordability and adoption  
+- Flexibility to adapt to changing risk conditions  
 
 ---
 
-### 5.2 Pricing Logic (AI-Driven)
+### 5.2 Pricing Framework (Risk-Based)
 
-The weekly premium is dynamically calculated using the **Multi-Layer Risk Score**:
+The platform uses a **risk-based pricing model**, where each user’s premium is determined at the beginning of every weekly cycle.
 
-> **Premium = Base Price × Risk Multiplier**
+> **Weekly Premium = Base Premium + Risk Adjustment**
 
-#### Risk Inputs:
-- 🌧️ Environmental Risk (rainfall, temperature)  
-- 📍 Location Risk (zone-based disruption probability)  
-- ⏰ Temporal Risk (peak-hour congestion impact)  
+#### Risk Factors Considered:
+- 🌧️ Environmental Risk (forecasted rainfall, temperature)  
+- 📍 Location Risk (zone-specific disruption probability)  
+- ⏰ Temporal Risk (expected peak-hour inefficiencies)  
 
-#### Example:
+The system computes a **risk score (0–1)** and maps it to a pricing band.
+
+#### Example Pricing Bands:
+
 | Risk Level | Risk Score | Weekly Premium |
 |-----------|-----------|----------------|
-| Low Risk  | 0.2       | ₹20            |
-| Medium Risk | 0.5     | ₹35            |
-| High Risk | 0.8       | ₹50            |
+| Low Risk  | 0.0 – 0.3 | ₹20            |
+| Medium Risk | 0.3 – 0.6 | ₹30–₹40       |
+| High Risk | 0.6 – 1.0 | ₹45–₹60        |
 
 ---
 
-### 5.3 Payout Structure
+### 5.3 Pricing Rules & Stability
 
-Payouts are triggered based on disruption intensity:
+To ensure fairness and avoid user dissatisfaction, the following rules are enforced:
+
+- ✅ Premium is **fixed for the entire week once a policy is activated**  
+- 🔄 Premium updates are applied **only at the start of the next weekly cycle**  
+- 📊 Risk recalculation is done periodically but does not affect active policies  
+
+👉 This ensures users are protected from **unexpected mid-cycle price changes**
+
+---
+
+### 5.4 User Consent & Transparency
+
+The platform follows a **consent-driven pricing model**, aligned with real-world insurance practices:
+
+- 📢 Users are shown:
+  - Weekly premium  
+  - Coverage details  
+  - Trigger conditions  
+
+- ✅ Policy activation requires **explicit user acceptance**  
+
+- 🔔 Before each renewal:
+  - Users are notified of any premium changes  
+  - Clear reasons are provided (e.g., “Increased rainfall forecast”)  
+
+- 🛠️ Users can:
+  - Accept the updated premium  
+  - Modify coverage  
+  - Skip/opt out of renewal  
+
+👉 This ensures **informed decision-making and prevents pricing disputes**
+
+---
+
+### 5.5 Affordability Considerations
+
+The premium is designed to remain within a **small fraction of weekly earnings**:
+
+- Premium range: ₹20–₹60/week  
+- Percentage of income: ~1–2%  
+
+This ensures:
+- Minimal financial burden  
+- Accessibility across income levels  
+- Higher long-term retention  
+
+---
+
+### 5.6 Payout Design (Controlled Compensation)
+
+Payouts are structured to provide **partial income protection**, not full replacement:
 
 - Mild disruption → ₹100–₹200  
 - Moderate disruption → ₹200–₹300  
 - Severe disruption → ₹300–₹500  
 
-👉 Designed to **partially compensate income loss**, not fully replace it.
+👉 This prevents overcompensation and maintains financial balance
 
 ---
 
-### 5.4 Affordability for Delivery Partners
+### 5.7 Financial Sustainability
 
-The pricing is designed to remain within **1–2% of weekly earnings**:
-
-- Weekly income: ₹3,500–₹5,000  
-- Premium range: ₹20–₹50  
-
-👉 This ensures:
-- Minimal financial burden  
-- High willingness to subscribe  
-- Sustainable long-term usage  
-
----
-
-### 5.5 Financial Sustainability for the Platform
-
-The model is designed to be **actuarially balanced** using:
+The model is designed to remain viable through:
 
 #### 📊 Risk Pooling
-- Not all users face disruptions simultaneously  
-- Premiums collected from low-risk users offset payouts for high-risk events  
+- Disruptions are not uniform across all users  
+- Premiums from low-risk users offset payouts for affected users  
 
-#### 🤖 Predictive Risk Control
-- AI adjusts premiums based on historical and real-time risk  
-- High-risk zones are priced higher to maintain balance  
+#### 🤖 Dynamic Risk Adjustment
+- High-risk users are priced higher  
+- Premiums evolve based on historical and predicted risk  
 
-#### 📉 Controlled Payout Design
-- Payouts are capped and partial  
-- Prevents over-exposure during extreme events  
-
----
-
-### 5.6 Example Scenario
-
-- 1,000 users enrolled  
-- Average premium: ₹30/week → ₹30,000 collected  
-
-If:
-- 20% users face disruptions  
-- Avg payout: ₹200  
-
-→ Total payout = ₹40,000  
-
-👉 The system remains sustainable through:
-- Risk-adjusted pricing  
-- Lower disruption frequency in normal weeks  
-- Dynamic premium updates over time  
+#### 📉 Exposure Control
+- Payout caps limit extreme losses  
+- Trigger thresholds prevent excessive claim frequency  
 
 ---
 
-### 5.7 Key Insight
+### 5.8 Regulatory & Practical Alignment
 
-> The model balances **affordability for gig workers** and **financial sustainability for the insurer** by combining AI-driven pricing, controlled payouts, and risk pooling.
+While this is a simulated system, the pricing model aligns with key principles of real-world insurance:
 
----
+- **Predefined pricing before policy activation**  
+- **No mid-policy premium changes**  
+- **Clear disclosure of terms and triggers**  
+- **User consent for policy purchase and renewal**  
 
-### 5.8 Pricing Transparency & User Control
-
-To ensure trust and prevent user dissatisfaction, the platform follows a **transparent and user-consented pricing model**:
-
-#### 📢 Upfront Communication
-- Users are clearly informed of their **weekly premium before activation**
-- All pricing factors (risk level, location, conditions) are explained via the AI support agent  
-
-#### 🔄 Controlled Premium Updates
-- Premiums are **not changed abruptly during an active week**
-- Any changes are applied only at the **start of the next billing cycle**  
-
-#### ✅ User Consent & Flexibility
-- Users are notified in advance if:
-  - Risk levels increase  
-  - Premium changes are expected  
-
-- The user can:
-  - Accept the updated premium  
-  - Modify coverage  
-  - Opt out for the next cycle  
-
-#### 🤖 Explainability via AI Agent
-- The AI agent provides clear explanations such as:
-  - “Premium increased due to expected heavy rainfall in your zone this week”  
+👉 This ensures the system is **practically implementable within regulated insurance frameworks**
 
 ---
 
-### 5.9 Key Insight on Pricing Trust
+### 5.9 Key Insight
 
-> A transparent and predictable pricing model is essential for adoption. By ensuring users are informed, in control, and able to make decisions, the platform builds **long-term trust and engagement**, which is critical for sustained usage.
-
-
----
-
-This ensures the platform is not only technically feasible, but also **economically viable in real-world deployment**.
+> A successful pricing model must balance **fairness, transparency, and sustainability**. By fixing premiums per cycle, ensuring user consent, and using risk-based adjustments, the platform builds trust while maintaining financial viability.
